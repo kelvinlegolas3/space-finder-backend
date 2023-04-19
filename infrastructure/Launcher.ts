@@ -1,8 +1,7 @@
-import { SpaceStack } from "./SpaceStack"
-import { App } from 'aws-cdk-lib'
+import { App } from 'aws-cdk-lib';
+import { SpaceStack } from './SpaceStack';
 
-const app = new App()
-const spaceStack = new SpaceStack(app, 'SpaceFinder', 
-{
+const app = new App();
+const spaceStack = new SpaceStack(app, 'SpaceFinder', {
     stackName: "SpaceFinder"
-})
+});

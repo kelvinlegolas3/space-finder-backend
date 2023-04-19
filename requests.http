@@ -1,4 +1,4 @@
-@endpoint = "https://ospv4lznp4.execute-api.us-east-1.amazonaws.com/prod"
+@endpoint = "https://xet07ngvf7.execute-api.us-east-1.amazonaws.com/prod"
 
 GET {{endpoint}}/hello/
 ###
